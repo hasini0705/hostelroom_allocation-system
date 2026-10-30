@@ -1,0 +1,23 @@
+{
+  "name": "hostel-allocation-system",
+  "version": "1.0.0",
+  "description": "Full-stack Hostel Room Allocation System for B.Tech CSE Mini Project",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev:server": "node server/server.js",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "seed": "node server/database/seed.js",
+    "test": "node server/test-api.js",
+    "install:all": "npm --prefix server install && npm --prefix client install"
+  },
+  "keywords": [
+    "hostel-management",
+    "room-allocation",
+    "sqlite",
+    "react",
+    "express"
+  ],
+  "author": "B.Tech CSE Student",
+  "license": "MIT"
+}
